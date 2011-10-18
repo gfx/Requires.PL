@@ -1,0 +1,39 @@
+This is Perl module Foo.
+
+INSTALLATION
+
+Type the following command:
+
+    $ curl -L http://cpanmin.us | perl - Foo
+
+Or install cpanm and then run the following command to install
+Foo:
+
+    $ cpanm Foo
+
+If you get an archive of this distribution, unpack it and build it
+as per the usual:
+
+    $ tar xzf Foo-$version.tar.gz
+    $ cd Foo-$version
+    $ perl Makefile.PL
+    $ make && make test
+
+Then install it:
+
+    $ make install
+
+DOCUMENTATION
+
+Foo documentation is available as in POD. So you can do:
+
+    $ perldoc Foo
+
+to read the documentation online with your favorite pager.
+
+LICENSE AND COPYRIGHT
+
+Copyright (c) 2011, Fuji Goro. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
